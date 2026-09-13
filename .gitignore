@@ -1,0 +1,10 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+artifacts/
+generated/*.spec.ts
+.env
+!.env.example
+!artifacts/.gitkeep
+!generated/.gitkeep

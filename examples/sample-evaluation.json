@@ -1,0 +1,10 @@
+{
+  "requirementId": "login",
+  "metrics": [
+    { "name": "requirementCoverage", "score": 1, "passed": 4, "total": 4, "notes": [], "evaluator": "deterministic" },
+    { "name": "relevance", "score": 1, "passed": 4, "total": 4, "notes": [], "evaluator": "deterministic" },
+    { "name": "unsupportedBehavior", "score": 1, "passed": 4, "total": 4, "notes": [], "evaluator": "deterministic" },
+    { "name": "executability", "score": 1, "passed": 4, "total": 4, "notes": [], "evaluator": "deterministic" }
+  ],
+  "overallScore": 1
+}
