@@ -2,7 +2,7 @@
   "name": "ai-spec-driven-qa",
   "version": "1.0.0",
   "private": true,
-  "description": "A portfolio-sized lab for spec review, AI-assisted test generation, and deterministic evaluation against SauceDemo.",
+  "description": "A focused lab for spec review, AI-assisted test generation, and deterministic evaluation against SauceDemo.",
   "type": "module",
   "scripts": {
     "build": "tsc -p tsconfig.json",

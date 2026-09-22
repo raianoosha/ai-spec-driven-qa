@@ -1,8 +1,8 @@
 # AI Spec-Driven QA
 
-A portfolio-sized experiment in **AI-assisted QA**, using [SauceDemo](https://www.saucedemo.com/) as the application under test. It reviews ambiguous requirements, proposes explicit acceptance criteria, generates a constrained test-scenario model, renders executable Playwright tests, and scores the result with deterministic evaluators.
+A focused experiment in **AI-assisted QA**, using [SauceDemo](https://www.saucedemo.com/) as the application under test. It reviews ambiguous requirements, proposes explicit acceptance criteria, generates a constrained test-scenario model, renders executable Playwright tests, and scores the result with deterministic evaluators.
 
-This is deliberately a lab, not a production framework. Its purpose is to make design choices, risks, and evaluation results easy to discuss in an interview.
+This is deliberately a lab, not a production framework. Its purpose is to make design choices, risks, and evaluation results explicit and reproducible.
 
 ## Why this project exists
 
@@ -155,7 +155,7 @@ npm run qa -- demo --provider http
 
 Required environment variables are `LLM_BASE_URL`, `LLM_API_KEY`, and `LLM_MODEL`. Secrets are never committed. Provider output is parsed as JSON and then checked, but the HTTP adapter is intentionally minimal; production code should use strict JSON Schema/Structured Outputs, retries, rate-limit handling, redaction, and fuller runtime validation.
 
-## Interview demo walkthrough (about 6 minutes)
+## Demo walkthrough (about 6 minutes)
 
 1. **Show the ambiguous input (45 sec).** Open `requirements/cart-checkout.md`. Point out that “accurate” and “clear confirmation” are not testable.
 2. **Run the pipeline (45 sec).** Use `npm run qa -- demo --requirement cart-checkout`. Open the review and structured spec under `artifacts/`.
